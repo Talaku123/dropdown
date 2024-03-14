@@ -1,0 +1,91 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  
+  height: 50vh;
+  width: 100%;
+}
+.dropdown{
+  margin: 10rem ;
+  
+}
+.dropdown h1
+{
+  color: red;
+  
+}
+
+.dropdown-menu
+{
+  
+  background-color: rgb(231, 255, 231) !important;
+  border: none !important;
+  flex-direction: row ;
+  min-height: 20vh;
+  position: absolute !important;
+  width: 80%;
+}
+.col-md-4,.input-submit
+{
+  display: inline-block;
+ 
+}
+.form-label{
+  font-size: 20px;
+  font-weight: 700;
+  
+  width: 30%;
+}
+.input
+{
+ border-radius: 5px;
+ padding: 10px;
+ width: 70%;
+}
+.input-submit
+{
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 6px;
+  color: snow;
+  font-size: 23px;
+  justify-content: center;
+  letter-spacing: 10px;
+  margin: 0 auto;
+  padding: 8px;
+  width: 20% !important;
+}
+
+@media screen and (max-width: 580px) {
+  
+  .dropdown
+  {
+    margin: 10em 2em;
+    width: 100%;
+  }
+  .dropdown-menu{
+    min-height: 35vh;
+  }
+ .input
+ {
+  width: 100% !important;
+ }
+ .input-submit
+ {
+  width: 97% !important;
+ }
+}
+
+@media  screen and (min-width: 980px) {
+  .dropdown
+  {
+    margin: 6em 4em;
+    width: 100%;
+  }
+}
